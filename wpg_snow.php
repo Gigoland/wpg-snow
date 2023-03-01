@@ -60,7 +60,7 @@ function wpgSnowUninstall()
 }
 
 if (function_exists('register_uninstall_hook') ) {
-	register_uninstall_hook(__FILE__, 'wpgSnowUninstall');
+    register_uninstall_hook(__FILE__, 'wpgSnowUninstall');
 }
 
 if (!get_option('wpg_snow_installed')) {

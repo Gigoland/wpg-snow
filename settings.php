@@ -16,25 +16,25 @@ if (!empty($_POST['wpg_snow_action']) && $_POST['wpg_snow_action'] === 'save') {
       <td align="center"><h2>Snow Settings</h2></td>
     </tr>
     <tr>
-      <td><input type="radio" name="wpg_snow_image" value="1"<?php if (get_option('wpg_snow_image') == 1){ ?> checked="checked"<?php } ?> /><img alt="Snow" src="<?php echo WP_PLUGIN_URL; ?>/wpg-snow/images/01.gif" width="auto" height="auto" border="0" /><hr /></td>
+      <td><input type="radio" name="wpg_snow_image" value="1"<?php echo get_option('wpg_snow_image') == 1 ? ' checked="checked"' : null; ?> /><img alt="Snow" src="<?php echo WP_PLUGIN_URL; ?>/wpg-snow/images/01.gif" width="auto" height="auto" border="0" /><hr /></td>
     </tr>
     <tr>
-      <td><input type="radio" name="wpg_snow_image" value="2"<?php if (get_option('wpg_snow_image') == 2){ ?> checked="checked"<?php } ?> /><img alt="Snow" src="<?php echo WP_PLUGIN_URL; ?>/wpg-snow/images/02.gif" width="auto" height="auto" border="0" /><hr /></td>
+      <td><input type="radio" name="wpg_snow_image" value="2"<?php echo get_option('wpg_snow_image') == 2 ? ' checked="checked"' : null; ?> /><img alt="Snow" src="<?php echo WP_PLUGIN_URL; ?>/wpg-snow/images/02.gif" width="auto" height="auto" border="0" /><hr /></td>
     </tr>
     <tr>
-      <td><input type="radio" name="wpg_snow_image" value="3"<?php if (get_option('wpg_snow_image') == 3){ ?> checked="checked"<?php } ?> /><img alt="Snow" src="<?php echo WP_PLUGIN_URL; ?>/wpg-snow/images/03.gif" width="auto" height="auto" border="0" /><hr /></td>
+      <td><input type="radio" name="wpg_snow_image" value="3"<?php echo get_option('wpg_snow_image') == 3 ? ' checked="checked"' : null; ?> /><img alt="Snow" src="<?php echo WP_PLUGIN_URL; ?>/wpg-snow/images/03.gif" width="auto" height="auto" border="0" /><hr /></td>
     </tr>
     <tr>
-      <td><input type="radio" name="wpg_snow_image" value="4"<?php if (get_option('wpg_snow_image') == 4){ ?> checked="checked"<?php } ?> /><img alt="Snow" src="<?php echo WP_PLUGIN_URL; ?>/wpg-snow/images/04.gif" width="auto" height="auto" border="0" /><hr /></td>
+      <td><input type="radio" name="wpg_snow_image" value="4"<?php echo get_option('wpg_snow_image') == 4 ? ' checked="checked"' : null; ?> /><img alt="Snow" src="<?php echo WP_PLUGIN_URL; ?>/wpg-snow/images/04.gif" width="auto" height="auto" border="0" /><hr /></td>
     </tr>
     <tr>
-      <td><input type="radio" name="wpg_snow_image" value="5"<?php if (get_option('wpg_snow_image') == 5){ ?> checked="checked"<?php } ?> /><img alt="Snow" src="<?php echo WP_PLUGIN_URL; ?>/wpg-snow/images/05.gif" width="auto" height="auto" border="0" /><hr /></td>
+      <td><input type="radio" name="wpg_snow_image" value="5"<?php echo get_option('wpg_snow_image') == 5 ? ' checked="checked"' : null; ?> /><img alt="Snow" src="<?php echo WP_PLUGIN_URL; ?>/wpg-snow/images/05.gif" width="auto" height="auto" border="0" /><hr /></td>
     </tr>
     <tr>
-      <td><input type="radio" name="wpg_snow_image" value="6"<?php if (get_option('wpg_snow_image') == 6){ ?> checked="checked"<?php } ?> /><img alt="Snow" src="<?php echo WP_PLUGIN_URL; ?>/wpg-snow/images/06.gif" width="auto" height="auto" border="0" /><hr /></td>
+      <td><input type="radio" name="wpg_snow_image" value="6"<?php echo get_option('wpg_snow_image') == 6 ? ' checked="checked"' : null; ?> /><img alt="Snow" src="<?php echo WP_PLUGIN_URL; ?>/wpg-snow/images/06.gif" width="auto" height="auto" border="0" /><hr /></td>
     </tr>
     <tr>
-      <td><input type="radio" name="wpg_snow_image" value="7"<?php if (get_option('wpg_snow_image') == 7){ ?> checked="checked"<?php } ?> /><img alt="Snow" src="<?php echo WP_PLUGIN_URL; ?>/wpg-snow/images/07.gif" width="auto" height="auto" border="0" /><hr /></td>
+      <td><input type="radio" name="wpg_snow_image" value="7"<?php echo get_option('wpg_snow_image') == 7 ? ' checked="checked"' : null; ?> /><img alt="Snow" src="<?php echo WP_PLUGIN_URL; ?>/wpg-snow/images/07.gif" width="auto" height="auto" border="0" /><hr /></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -52,10 +52,10 @@ if (!empty($_POST['wpg_snow_action']) && $_POST['wpg_snow_action'] === 'save') {
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <td><input type="radio" name="wpg_snow_height" value="windowheight"<?php if (get_option('wpg_snow_height') == 'windowheight'){ ?> checked="checked"<?php } ?> /> Window height</td>
+      <td><input type="radio" name="wpg_snow_height" value="windowheight"<?php echo get_option('wpg_snow_height') === 'windowheight' ? ' checked="checked"' : null; ?> /> Window height</td>
     </tr>
     <tr>
-      <td><input type="radio" name="wpg_snow_height" value="pageheight"<?php if (get_option('wpg_snow_height') == 'pageheight'){ ?> checked="checked"<?php } ?> /> Page height</td>
+      <td><input type="radio" name="wpg_snow_height" value="pageheight"<?php echo get_option('wpg_snow_height') === 'pageheight' ? ' checked="checked"' : null; ?> /> Page height</td>
     </tr>
     <tr>
       <td>&nbsp;</td>
