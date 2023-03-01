@@ -1,13 +1,13 @@
 <?php
 /*
     Plugin Name: WPG-Snow
-    Description: WP Gigoland Plugin - Snow.
+    Description: Wordepress Plugin Gigoland - Snow.
     Version: 1.0
     Author URI: https://Gigoland.net
 */
 
 /*
-	Copyright 2010 Gigoland.com
+    Copyright 2010 Gigoland.com
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
