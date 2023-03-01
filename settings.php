@@ -52,10 +52,10 @@ if (!empty($_POST['wpg_snow_action']) && $_POST['wpg_snow_action'] === 'save') {
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <td><input type="radio" name="wpg_snow_height" value="windowheight"<?php echo get_option('wpg_snow_height') === 'windowheight' ? ' checked="checked"' : null; ?> /> Window height</td>
+      <td><input type="radio" name="wpg_snow_height" value="pageheight"<?php echo get_option('wpg_snow_height') === 'pageheight' ? ' checked="checked"' : null; ?> /> Page height</td>
     </tr>
     <tr>
-      <td><input type="radio" name="wpg_snow_height" value="pageheight"<?php echo get_option('wpg_snow_height') === 'pageheight' ? ' checked="checked"' : null; ?> /> Page height</td>
+      <td><input type="radio" name="wpg_snow_height" value="windowheight"<?php echo get_option('wpg_snow_height') === 'windowheight' ? ' checked="checked"' : null; ?> /> Window height</td>
     </tr>
     <tr>
       <td>&nbsp;</td>
